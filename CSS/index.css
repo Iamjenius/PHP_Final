@@ -1,0 +1,115 @@
+.search{
+    width: 25vw;
+    min-width: 360px;
+    height: 22vw;
+    min-height: 300px;
+    border:1px solid #BEBEBE;
+    border-radius: 15px;
+    float: left;
+    margin-right: 6vw;
+    margin-left: 6vw;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    font-size: 22px;
+    position: relative;
+}
+h2{
+    font-size: 22px;
+    color: #FF5468;
+    font-weight: 500;
+    float: left;
+    margin-right: 10px;
+}
+.search li{
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+.search input{
+    font-family: 'Quicksand', sans-serif,微軟正黑體;
+    color: #343338;
+    font-size: 16px;
+}
+select{
+    font-family: 'Quicksand', sans-serif,微軟正黑體;
+    color: #343338;
+    font-size: 16px;
+}
+#btn{
+    width:6vw;
+    min-width: 80px;
+    height: 2vw;
+    min-height: 27px;
+    font-size:16px;
+    color: #FF5468;
+    background: #fff;
+    border: 1px solid #FF5468;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif,微軟正黑體;
+    position: absolute;
+    bottom: 1.5vw;
+    right:1.5vw;
+    cursor: pointer;
+}
+#btn:hover{
+    -webkit-transition: 0.5s;
+    color: #fff;
+    background: #FF5468;
+}
+.news{
+    width: 25vw;
+    min-width: 320px;
+    height: 22vw;
+    border:1px solid #FF5468;
+    border-radius: 15px;
+    float: left;
+    margin-right: 6vw;
+    margin-left: 6vw;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.news li{
+    margin-left: 20px;
+    list-style-image: url('../photo/carIcon.png');
+    margin-top: 20px;
+    color: #FF5468;
+    font-size: 18px;
+}
+.news li:hover{
+    color: #D83447;
+}
+.news_2{
+    width: 25vw;
+    min-width: 320px;
+    height: 22vw;
+    border:1px solid #FF5468;
+    border-radius: 15px;
+    float: left;
+    margin-right: 6vw;
+    margin-left: 6vw;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.news_2 li{
+    margin-left: 20px;
+    list-style-image: url('../photo/orderIcon.png');
+    margin-top: 20px;
+    color: #FF5468;
+    font-size: 18px;
+}
+.news_2 li:hover{
+    color: #D83447;
+}
+h3{
+    width:100%;
+    font-size: 20px;
+    line-height:50px;
+    color: #fff;
+    font-weight: 500;
+    background: #FF5468;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

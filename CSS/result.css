@@ -1,0 +1,120 @@
+.car_info{
+	width: 600px;
+}
+h2{
+	color: #484848;
+	font-size: 36px;
+	font-weight: bold;
+
+}
+h3{
+	width: 100px;
+	line-height: 35px;
+	font-weight: 100;
+	font-size: 20px;
+	background: #FF5468;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+}
+.car_photo{
+	width: 600px;
+	height: 360px;
+	background: #484848;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+}
+.car_profile{
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-bottom: 100px;
+}
+.title{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.car_profile li{
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+.car_profile b{
+	font-weight: 100;
+}
+.book{
+	width: 320px;
+	position: absolute;
+	top:28%;
+	right:15%;
+}
+.book_price{
+	width: 100%;
+	height: 50px;
+	background-color: #484848;
+	padding-left: 90px;
+	box-sizing: border-box;
+}
+.book_price p{
+	width: 90px;
+	font-size: 20px;
+	color: #fff;
+	line-height: 50px;
+	margin-right: 5px;
+	text-align: right;
+	float: left;
+}
+.book_price b{
+	width: 40px;
+	line-height: 55px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 100;
+}
+.book_info{
+	height: 330px;
+	border: 1px solid #C1C1C1;
+	border-top: none;
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
+}
+.book_info p{
+	width: 120px;
+	float: left;
+	margin-right: 12px;
+	margin-left: 12px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.book_info b{
+	font-size: 18px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.book_info input{
+	width: 115px;
+	float: left;
+	font-family: 'Quicksand', sans-serif,微軟正黑體;
+	font-size: 14px;
+	margin-right: 12px;
+	margin-left: 12px;
+}
+.book_info button{
+	width:110px;
+    height: 35px;
+    font-size:16px;
+    color: #fff;
+    background: #FF5468;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif,微軟正黑體;
+    position: absolute;
+    bottom: 25px;
+    right:20px;
+    cursor: pointer;
+ }
+.book_info button:hover{
+	-webkit-transition: 0.5s;
+    background: #D83447;
+}
